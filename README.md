@@ -2,7 +2,7 @@
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="../web-portifolio//src/assets/img/tre.png">
+<img width="1266" alt="Screen Shot 2023-06-08 at 7 19 19 PM" src="./src/assets/img/tre.png">
 
 Construído usando:
 
