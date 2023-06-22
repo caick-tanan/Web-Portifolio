@@ -63,7 +63,7 @@ export const Contact = () => {
                         <img src={contactImg} alt="Contate-me"/>
                     </Col>
                     <Col md={6}>
-                        <h2>Entrar em Contato</h2>
+                        <h2 className="text-center">Entrar em Contato</h2>
                         <form onSubmit={handleSubmit}>
                             <Row>
                                 <Col sm={6} className="px-1">
@@ -78,7 +78,7 @@ export const Contact = () => {
                                 <Col sm={6} className="px-1">
                                     <input type="tel" value={formDetails.phone} placeholder="Telefone" onChange={(e) => onFormUpdate('phone', e.target.value)} />
                                 </Col>
-                                <Col>
+                                <Col className="">
                                     <textarea row="6" value={formDetails.message} placeholder="Mensagem" onChange={(e) => onFormUpdate('message', e.target.value)} />
                                     <button type="submit"><span>{buttonText}</span></button>
                                 </Col>

@@ -55,13 +55,13 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/caick-tanan-03086b180/" target="_blank">
+                        <a rel='noreferrer' href="https://www.linkedin.com/in/caick-tanan-03086b180/" target="_blank">
                             <img src={navIcon1} alt="Linkedin Caick" />
                         </a>
-                        <a href="https://www.facebook.com/caick_tanan/" target="_blank">
+                        <a rel='noreferrer' href="https://www.facebook.com/caick_tanan/" target="_blank">
                             <img src={navIcon2} alt="Facebook Caick" />
                         </a>
-                        <a href="https://www.instagram.com/caick_tanan/" target="_blank">
+                        <a rel='noreferrer' href="https://www.instagram.com/caick_tanan/" target="_blank">
                             <img src={navIcon3} alt="Instagram Caick" />
                         </a>
                     </div>

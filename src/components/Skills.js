@@ -1,10 +1,12 @@
-import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 import colorSharp from "../assets/img/color-sharp.png"
+
+
+
 
 export const Skills = () =>{
     const responsive = {
@@ -39,31 +41,27 @@ export const Skills = () =>{
                             <p>A baixo algumas das minhas habilidades que tive conhecimento e aplicação em alguns projetos<br></br> Busco a melhoria constante das minhas habilidades para sempre tentar me manter no topo.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>C#</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="Img" />
                                     <h5>.NET</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter3} alt="Img" />
                                     <h5>Angular</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="Img" />
                                     <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="Img" />
                                     <h5>SQL Server</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="Img" />
                                     <h5>HTML</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="Img" />
                                     <h5>CSS</h5>
                                 </div>
                             </Carousel>
@@ -71,7 +69,7 @@ export const Skills = () =>{
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp}/>
+            <img className="background-image-left" src={colorSharp} alt=""/>
         </section>
       )
 }
