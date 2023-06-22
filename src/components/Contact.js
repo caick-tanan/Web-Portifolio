@@ -39,10 +39,11 @@ export const Contact = () => {
             headers: {
                 "Content-Type": "Application/json;Charset=utf-8",
             },  // O formDetails são os nossos objetos
-            body: JSON.stringify(formDetails)}).then((response) => {
-                return response
+            body: JSON.stringify(formDetails)
         });
         setButtonText("Enviar");
+        // Aguardando a resposta do json 
+        let result = response.json();
         // Vamos definir os detalhes do formulário de volta para o estado inicial
         setFormDetails(formInitialDetails);
         // Se o codigo de resultador for igual a 200 é sucesso
